@@ -5,6 +5,7 @@
   tasks:
   - docker_compose: 
      project_name: dvpwa
+     project_src: ./
      build: no
   
      
