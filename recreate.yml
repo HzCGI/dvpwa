@@ -5,7 +5,7 @@
   tasks:
   - docker_compose: 
      project_name: dvpwa
-     project_src: dvpwa
+     project_src: /home/hanz/Desktop/dvpwa
      build: no
   
      
