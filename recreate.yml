@@ -3,7 +3,7 @@
 - hosts: all
   become: true
   tasks:
-  - docker_service: 
+  - docker_compose: 
      project_name: dvpwa
      build: yes
      restarted: true
