@@ -1,0 +1,11 @@
+---
+
+- hosts: all
+  become: true
+  tasks:
+  - docker_compose: 
+     project_name: dvpwa
+     project_src: /home/hanz/Desktop/dvpwa
+     build: no
+  
+     
